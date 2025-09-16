@@ -19,6 +19,6 @@
     "lint-staged": "^16.1.6"
   },
   "lint-staged": {
-    "*.{js}": "npm run lint"
+    "*.js": "npm run lint"
   }
 }
