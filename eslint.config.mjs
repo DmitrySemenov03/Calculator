@@ -14,7 +14,12 @@ export default defineConfig([
       ...eslintConfigPrettier.rules,
       'no-unused-vars': 'warn',
       'no-undef': 'warn',
-      'prettier/prettier': 'error',
+      'prettier/prettier': [
+        'error',
+        {
+          endOfLine: 'auto',
+        },
+      ],
     },
   },
 ]);
