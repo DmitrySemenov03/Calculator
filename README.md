@@ -9,7 +9,6 @@ Task description: [link to the document](https://example.com/task)
 
 1. Clone the repository:
    git clone https://github.com/DmitrySemenov03/Calculator.git
-   Navigate to the project folder:
 
 2. Navigate to the project folder:
    cd calculator-app
@@ -24,7 +23,7 @@ Task description: [link to the document](https://example.com/task)
 
 - index.html - main HTML file
 - index.js - entry point of the application
-- actions.js - calculator logic (operations)
+- actions.js - calculator logic
 - state.js - calculator state management
 - ui.js - creates the user interface with JavaScript
 - styles.css - styles for the calculator
