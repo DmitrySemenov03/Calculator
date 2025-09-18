@@ -14,6 +14,21 @@ export function createCalculateUI() {
   calculator.classList.add('calculator');
   container.appendChild(calculator);
 
+  //add theme toggle feature
+  const themeToggleButton = document.createElement('button');
+  themeToggleButton.classList.add('toggleThemeBtn');
+  themeToggleButton.textContent = 'Change Theme';
+  container.appendChild(themeToggleButton);
+
+  themeToggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    const isDark = document.body.classList.contains('dark-mode');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  });
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-mode');
+  }
+
   const display = document.createElement('input');
   display.value = getCurrentValue();
   display.readOnly = true;

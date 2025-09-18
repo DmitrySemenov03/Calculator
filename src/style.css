@@ -10,6 +10,9 @@ body {
   height: 100vh;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
@@ -18,7 +21,6 @@ body {
 .calculator {
   display: grid;
   grid-template-columns: repeat(4, 60px);
-  /* padding: 5px; */
   background-color: #494848;
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgba(38, 38, 38);
@@ -65,4 +67,52 @@ body {
 
 .btn-zero {
   grid-column: span 2;
+}
+
+.toggleThemeBtn {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.toggleThemeBtn:hover {
+  background-color: #d1d1d1;
+}
+
+/* Dark styles */
+body.dark-mode {
+  background-color: #1a1a1a;
+}
+
+body.dark-mode .container {
+  background: #3f3f3f;
+  color: #fff;
+}
+
+body.dark-mode .calculator {
+  background: #b3b3b3;
+  border: 1px solid #fff;
+}
+
+body.dark-mode .btn {
+  background-color: #b3b3b3;
+  color: #fff;
+}
+
+body.dark-mode .btn-sign {
+  background-color: #343434;
+}
+
+body.dark-mode .btn-action {
+  background-color: #737373;
+}
+
+body.dark-mode .toggleThemeBtn {
+  background-color: #221e1e;
+  color: #fff;
+}
+
+body.dark-mode .toggleThemeBtn:hover {
+  background-color: #313131;
 }
