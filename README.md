@@ -3,7 +3,7 @@
 ## Task
 
 Create a simple calculator with basic functions using plain JavaScript without eval or external libraries such as Math.js.  
-Task description: [link to the document](https://example.com/task)
+Task description: [link to the document](https://docs.google.com/document/d/1zpXXeSae-BlcxPKgw3DhxZA92cspVailrPYoaXSYrW8/edit#heading=h.5dt3hghpa22f)
 
 ## How to run the app
 
@@ -11,10 +11,10 @@ Task description: [link to the document](https://example.com/task)
    git clone https://github.com/DmitrySemenov03/Calculator.git
 
 2. Navigate to the project folder:
-   cd calculator-app
+   - cd calculator
 
 3. Install dependencies (if any):
-   npm install
+   - npm install
 
 4. Run the application:
    - Open `index.html` in a browser manually.
