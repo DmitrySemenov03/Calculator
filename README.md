@@ -8,10 +8,10 @@ Task description: [link to the document](https://docs.google.com/document/d/1zpX
 ## How to run the app
 
 1. Clone the repository:
-   git clone https://github.com/DmitrySemenov03/Calculator.git
+   - git clone https://github.com/DmitrySemenov03/Calculator.git
 
 2. Navigate to the project folder:
-   - cd calculator
+   - cd Calculator
 
 3. Install dependencies (if any):
    - npm install
